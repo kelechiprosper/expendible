@@ -1,5 +1,2 @@
-first = 'Tom'
-last = 'parker'
-message = first + ' [' + last + ' ] is a coder'
-msg = f'{first} [{last}] is a coder'
-print(msg)
+x = 2.6
+print(abs(-2.6))
