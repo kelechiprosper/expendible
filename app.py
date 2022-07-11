@@ -1,12 +1,10 @@
+weight = int(input('weight: '))
+unit = input('(L)bs or (k)g: ')
 
-name = "High chief"
-
-if len(name) < 3:
-    print("Name must be at least 3 characters")
-
-elif len(name) > 50:
-    print("Name must be maximum of 50 characters")
-
+if unit.upper() == "L":
+    converted = weight * 0.45
+    print(f"You are {converted} kilos")
 else:
-    print("Name looks good!")
+    converted = weight / 0.45
+    print(f"You are {converted} pounds")
 
