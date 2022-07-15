@@ -1,29 +1,6 @@
-command = ""
-started = False
-while True:
-    command = input("> ").lower()
-    if command == "start":
-        if started:
-            print("car is already started!")
-        else:
-            started = True
-            print("car started...")
-    elif command == "stop":
-        if not started:
-            print("car is already stopped!...")
-        else:
-            started = False
-        print("car stopped...")
+prices = [10, 20, 30]
+total = 0
+for price in prices:
+    total += price
 
-    elif command == "help":
-        print("""
-start - to start the car
-stop - to stop the car
-quite - to quite
-        """)
-
-    elif command == "quite":
-        break
-    else:
-        print("Sorry, I dont understand that")
-
+print(f"total: {total}")
