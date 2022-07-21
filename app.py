@@ -1,3 +1,7 @@
-coordinate = (1, 2, 3)
-a,b,c = coordinate
-print(coordinate)
+life_style = {
+    "hubby": "video game",
+    "favourite": "eating",
+    "skill": "teaching"
+}
+life_style["animal"] = "lion"
+print(life_style["animal"])
