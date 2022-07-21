@@ -1,2 +1,3 @@
-numbers = (1, 2, 3, 4)
-print(numbers[0])
+coordinate = (1, 2, 3)
+a,b,c = coordinate
+print(coordinate)
