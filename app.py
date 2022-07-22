@@ -1,7 +1,11 @@
-life_style = {
-    "hubby": "video game",
-    "favourite": "eating",
-    "skill": "teaching"
+phone = input("phone: ")
+digits_mapping = {
+    "1": "one",
+    "2": "two",
+    "3": "three",
+    "4": "four"
 }
-life_style["animal"] = "lion"
-print(life_style["animal"])
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!") + " "
+    print(output)
